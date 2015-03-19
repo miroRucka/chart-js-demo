@@ -1,0 +1,20 @@
+{
+    "name": "chart-js-demo",
+    "description": "web application for demonstrating render realtime chart on web based platform",
+    "author": "Miroslav Rucka",
+    "version": "0.0.1",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/miroRucka/chart-js-demo"
+    },
+    "scripts": {
+        "start": "server.js"
+    },
+    "dependencies": {
+        "express": "3.5.0",
+        "underscore": "1.6.0"
+    },
+    "devDependencies": {
+    },
+    "engine": "node >= 0.10.25"
+}
