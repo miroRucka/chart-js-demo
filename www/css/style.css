@@ -1,3 +1,10 @@
+body {
+    background-image: url('../img/bg.png');
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
 .chart {
     height: auto;
     padding: 4px;
@@ -8,4 +15,15 @@
     margin-right: auto;
     margin-left: auto;
     box-shadow: #000 0 0 6px -2px;
+}
+
+.span6 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.btn-control {
+    margin: 10px auto 0px auto;
+    text-align: right;
+    max-width: 800px;
 }

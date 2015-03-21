@@ -14,7 +14,7 @@
                     },
                     tooltip: {
                         formatter: function () {
-                            return 'Teplota <b>' + this.y +
+                            return 'Hodnota <b>' + this.y +
                                 '</b><br/>v čase <b>' + this.x + '</b>';
                         }
                     },
@@ -42,7 +42,6 @@
                     type: 'datetime'
                 },
                 size: {
-                    width: 790,
                     height: 500
                 },
                 loading: false
