@@ -56,7 +56,7 @@
             intervalPromise = $interval(tick, interval);
         };
 
-        startTicking(200);
+        startTicking(500);
 
     });
 })(angular);
