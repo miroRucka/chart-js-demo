@@ -16,7 +16,7 @@
             cat.length = 0;
             data.length = 0;
             counter = 0;
-            startTicking();
+            startTicking(500);
         };
 
         $scope.setInterval = function (interval) {
